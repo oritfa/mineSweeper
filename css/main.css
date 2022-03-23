@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(108, 34, 177);
+    background-color: rgb(224, 238, 238);
+}
+
+.cell.isShown{
+
+    background-color: rgb(203, 216, 216);
+
+}
+
+.board-container{
+    margin-top: 200px;
+    margin:auto;
+    text-align: center;
+    display:inline-block
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+
+  }
+  .options{
+      margin: 20px;
+  }
+
+  .reset{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size:40px;
+    display:inline-block
+  }
+
+  .life1{
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    
+}
+.life2{
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    
+}
+.life2{
+      margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+
+  }
