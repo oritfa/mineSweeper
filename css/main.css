@@ -24,17 +24,15 @@ h2{
 }
 
 .cell.isShown{
-
     background-color: rgb(203, 216, 216);
-
 }
+
 .cell.isHint{
     background-color: rgb(197, 218, 218);
-
 }
+
 .isSafe{
     background-color: rgb(79, 206, 206);
-
 }
 .cell:hover{
     /* background-color: rgba(177, 236, 236, 0.699);  */

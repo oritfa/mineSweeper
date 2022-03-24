@@ -433,4 +433,34 @@ function hideCellAndNeighbors(cellI, cellJ, board) {
 }
 
 
+function findSafeCells(){
+    var safeCells = []
+    for (var i = 0; i < gBoard.length; i++) {
+        for (var j = 0; j < gBoard[0].length; j++) {
+            var cell = gBoard[i][j]
+            if (!cell.isMine && !cell.isShown) {
+                safeCells.push({ i, j })
+            }
+        }
+    }
+    console.log(safeCells)
+    return safeCells
+}
+
+function getSafeCell(){
+    var safeCells = findSafeCells()
+    var safeCell = getRandomCell(safeCells)
+
+    var elCell = document.querySelector(`.cell-${safeCell.i}-${safeCell.j}`);
+    elCell.classList.add('isSafe')
+    elCell.innerHTML = EMPTY
+    setTimeout(removeIsSafe, 2000, elCell)
+
+}
+
+function removeIsSafe(elCell){
+    elCell.classList.remove('isSafe')
+}
+
+
 
