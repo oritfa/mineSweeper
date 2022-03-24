@@ -21,8 +21,19 @@
         <input type="radio" name="levels" id="Expert" onclick="initGame()">
         <label for="Expert">Expert</label>
     </div>
+    <div>
+        <ul>
+            <li class="life1"></li>
+            <li class="life2"></li>
+            <li class="life3"></li>
+            <li class="space"></li>
+            <li class="space"></li>
+            <li class="hint1" onclick="startHint(this)"></li>
+            <li class="hint2" onclick="startHint(this)"></li>
+            <li class="hint3" onclick="startHint(this)"></li>
+        </ul>
+    </div>
     <h2><span class="minutes">00</span>:<span class="seconds">00</span></h2>
-   
     <div id="noContextMenu" class="board-container">
     </div>
 

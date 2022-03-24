@@ -4,21 +4,41 @@
 
 body{
     text-align: center;
+    background-color: rgb(187, 93, 206);
+    /* background-color: rgb(236, 178, 214); */
+    /* background:linear-gradient(to top right,  rgb(231, 241, 243), rgb(161, 17, 238)); */
+}
+
+h2{
+    margin: 10px;
 }
 
 .cell {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.0 em;
     color: rgb(108, 34, 177);
     background-color: rgb(224, 238, 238);
+    /* background-color:linear-gradient(to bottom right, rgb(214, 219, 219),  rgb(231, 241, 243)); */
 }
 
 .cell.isShown{
 
     background-color: rgb(203, 216, 216);
 
+}
+.cell.isHint{
+    background-color: rgb(197, 218, 218);
+
+}
+.isSafe{
+    background-color: rgb(79, 206, 206);
+
+}
+.cell:hover{
+    /* background-color: rgba(177, 236, 236, 0.699);  */
+    background:linear-gradient(to top right,  rgb(231, 241, 243), rgb(177, 236, 236));
 }
 
 .board-container{
@@ -46,21 +66,19 @@ button{
     display:inline-block
   }
 
-  .life1{
-    margin-bottom: 20px;
-    width: 20px;
-    height: 20px;
-    
-}
-.life2{
-    margin-bottom: 20px;
-    width: 20px;
-    height: 20px;
-    
-}
-.life2{
-      margin-bottom: 20px;
-    width: 20px;
-    height: 20px;
 
-  }
+ul{
+    padding: 0px;
+}
+
+  li {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    /* background-color: blueviolet; */
+
+}
+
