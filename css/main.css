@@ -80,3 +80,24 @@ ul{
 
 }
 
+.buttons-container{
+
+    position: absolute;
+    top: 40%;
+    left: 25%; 
+}
+
+button{
+    margin: 5px;
+    /* background:linear-gradient(to top right,  rgb(231, 241, 243),rgb(224, 192, 11)); */
+    background:linear-gradient(to top right,  rgb(231, 241, 243),rgba(108, 34, 177, 0.164));
+
+}
+
+.isSevenBoom{
+    background:linear-gradient(to top right,  rgb(231, 241, 243),rgb(82, 5, 153));
+}
+
+.mines{
+    margin-bottom: 10px;
+}

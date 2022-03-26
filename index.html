@@ -34,7 +34,12 @@
         </ul>
     </div>
     <h2><span class="minutes">00</span>:<span class="seconds">00</span></h2>
-    <div id="noContextMenu" class="board-container">
+    <div id="noContextMenu" class="board-container"></div>
+    <div class="buttons-container">
+        <div class="mines"></div>
+            <div><button class="safe-button" onclick="onSafeClick(this)">Safe x3</button></div>
+            <div><button class ="sevenBoom" onclick="sevenBoomClicked(this)">7 BOOM</button></div>
+            <!-- <div><button disabled>Undo</button></div> -->
     </div>
 
     <script src="js/main.js"></script>
